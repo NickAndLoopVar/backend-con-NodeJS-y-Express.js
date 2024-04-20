@@ -1,0 +1,93 @@
+# Backend con Node.js y Express.js para MongoDB
+
+_Este proyecto es un backend desarrollado en Node.js con Express.js, diseñado para interactuar con una base de datos MongoDB. Proporciona una API RESTful que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) en la base de datos._
+
+## Capturas
+
+### Se configura el package.json agragando las dependencias y modificando el script para levantar el servidor
+
+![Package.json](https://i.ibb.co/V3sjKw2/packagejson.png)
+
+### Se crea un archivo .env para configurar la variable MONGO_URL que tendra asignado el enlace de conexion con nuestra base de datos
+
+![.env](https://i.ibb.co/9HLs04P/env-2.png)
+
+### Se crean 5 carpetas
+
+- src
+- config
+- models
+- controllers
+- routes
+
+![carpetas](https://i.ibb.co/Lr4kDXF/carpetas.png)
+
+### En la carpeta src se crea el archivo index.js y se configura el servidor
+
+![index.js](https://i.ibb.co/BPVw7WN/index.png)
+
+### La carpeta config tendra un archivo llamado db.js donde se crara la conexion con la base de datos
+
+![db.js](https://i.ibb.co/vVD0r7p/db.png)
+
+### La carpeta models contendra el esquema que sera almacenado en la base de datos, en este caso se tienen 2 modelos:
+
+#### Cliente.js
+
+![Cliente.js](https://i.ibb.co/FWKvNDK/cliente.png)
+
+#### Producto.js
+
+![Producto.js](https://i.ibb.co/GQK7D80/producto.png)
+
+### En la carpeta controllers se creanlos archivos que contendran las funciones del CRUD, un archivo asignado para cada esquema
+
+#### ClienteController.js
+
+![ClienteController.js](https://i.ibb.co/sPnvZNw/clientecontroller.png)
+
+#### ProductoController.js
+
+![ProductoController.js](https://i.ibb.co/bXYxgqc/productocontroller.png)
+
+### En la carpeta routes se crean los archivos que contendran las rutas para probar las funciones en Postman
+
+#### RoutesClientes.js
+
+![RutasClientes.js](https://i.ibb.co/m4y0fjY/rutasclientes.png)
+
+#### RoutesProducto.js
+
+![RutasProducto](https://i.ibb.co/0mQ1M1Q/rutasproducto.png)
+
+### Se crea la base de datos en Mongo DB
+
+![MongoDB](https://i.ibb.co/6NFZ35Q/mongo.png)
+
+### Se realizan las pruebas de los metodos CRUD en Postman
+
+### Metodo POST
+
+![Metodo POST](https://i.ibb.co/BNvLfvq/Metodo-Post-Ejercicio.png)
+
+### Metodo GET
+
+![Metodo GET](https://i.ibb.co/b54t87D/Metodo-Get-Ejecicio.png)
+
+### Metodo GET Id
+
+![Metodo GET id](https://i.ibb.co/y5wm9DN/Metodo-Get-IDEjercicio.png)
+
+### Metodo DELETE
+
+![Metodo DELETE](https://i.ibb.co/M6DkBsk/Metodo-Delete-Ejercicio.png)
+
+### Metodo PATCH
+
+![Metodo PATCH](https://i.ibb.co/YDhbvTm/Metodo-Patch-Ejercicio.png)
+
+## Links
+
+- [Github @NickAndLoopVar](https://github.com/NickAndLoopVar)
+
+- [Repositorio](https://github.com/NickAndLoopVar/backend-con-NodeJS-y-Express.js)
