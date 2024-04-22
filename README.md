@@ -4,7 +4,7 @@ _Este proyecto es un backend desarrollado en Node.js con Express.js, diseñado p
 
 ## Capturas
 
-### Se configura el package.json agragando las dependencias y modificando el script para levantar el servidor
+### Se configura el package.json agregando las dependencias y modificando el script para levantar el servidor
 
 <img src="https://i.ibb.co/V3sjKw2/packagejson.png" alt="Package.json" width="50%">
 
